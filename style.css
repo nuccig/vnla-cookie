@@ -1,0 +1,120 @@
+/*Fonte Característica: font-family: 'Dawning of a New Day', cursive;*/
+/*Fonte Regular: font-family: 'Quicksand', sans-serif;*/
+/*Fonte Título: font-family: 'Raleway', sans-serif;*/
+/*  Amarelo Claro: #FFEBDA,
+    Rosa Escuro: #EB9191,
+    Rosa Claro: #FFBEBE,
+    Marrom Claro: #B49B91,
+    Marrom Escuro: #996F6F*/
+
+body {
+    background: #EEEEEE;
+}
+
+header {
+    background: linear-gradient(#FFEBDA 70%,#EEEEEE);
+    padding: 10px 0;
+}
+
+.topo {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.topo-esquerda{
+    width: 60%;
+    display: inline-block;
+}
+
+.topo-direita{
+    width: 40%;
+    display: inline-block;
+}
+
+.logo {
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: 1s;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.texto-logo {
+    display: inline;
+    vertical-align: middle;
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 70px;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.texto-logo:hover {
+    text-shadow: 5px 5px 5px #EB9191;
+}
+
+nav {
+    width: 75%;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    font-size: 25px;
+    margin: 0 0 0 25px;
+}
+
+nav li a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    transition: 400ms;
+}
+
+nav li a:hover {
+    background: #000000;
+    color: #EEEEEE;
+    padding: 15px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px #EB9191;
+}
+
+footer {
+    background: url('img/rodapé.png');
+    height: 120px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.separador{
+    height: 20px;
+    background: linear-gradient(#EEEEEE 30%, #FFEBDA);
+    opacity: 0.5;
+}
+
+.logo-rodape {
+    width: 100px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#tapaburaco{
+    background: #EEEEEE;
+    height:500px;
+}
