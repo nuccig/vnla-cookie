@@ -13,16 +13,19 @@ body {
 
 /*CSS Cabeçalho*/
 
-header {
+.topo {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25px;
     background: linear-gradient(#FFEBDA 70%,#EEEEEE);
     padding: 10px 0;
 }
 
-.topo {
-    position: relative;
+.topo-freeze {
     width: 100%;
-    margin: 0 auto;
-    padding: 0 25px;
+    height: 120px;
 }
 
 .topo-esquerda{
