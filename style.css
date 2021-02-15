@@ -110,7 +110,7 @@ nav li a:hover {
     position: absolute;
     min-width: 100%;
     min-height: 300px;
-    opacity: 0.3;
+    opacity: 0.8;
     vertical-align: middle;
     border-radius: 10px;
 }
@@ -130,7 +130,7 @@ nav li a:hover {
 .txt-banner-down {
     position: relative;
     top: -20px;
-    left: 600px;
+    left: 580px;
     text-align: right;
     font-family: 'Raleway', sans-serif;
     font-size: 75px;
