@@ -20,7 +20,7 @@
 
     <body>
         <header>
-            <div class="topo">
+            <a name="top"><div class="topo">
                 <div class="topo-esquerda">
                     <img class="logo" src="img/logo.png">
                     <h1 class="texto-logo">Vanilla Cookies</h1>
@@ -29,35 +29,91 @@
                         <li><a href="index.html">Nossos Produtos</a></li>
                         <li><a href="index.html">Quem Somos</a></li>
                     </ul></nav>
-            </div>
-            <div class="topo-freeze"></div>
+            </div></a>
         </header>
 
         <main>
             
-            <div class="banner">
-                <img class="img-banner" src="img/cookies.jpg">
+            <section class="banner">
+                <div class="video">
+                    <video autoplay muted loop id="video-bg">
+                        <source src="img/bg-video.mp4" type="video/mp4">
+                    </video>
+                </div>
                 <p class="txt-banner-upper">Homemade Cookie</p>
                 <p class="txt-banner-down">O simples bem feito</p>
+            </section>
+            <section class="secao-padrao">
+                <div class="secao-left">
+                    <h2 class="titulo-secao">Quem somos</h2>
+                    <p class="p-home-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque pulvinar pellentesque. Sed et justo arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. In hac habitasse platea dictumst. Maecenas vulputate ultrices turpis, in pellentesque mauris auctor ut. Mauris quis felis pulvinar, facilisis tortor vel, porta tellus.</p>
+                    <pre class="veja-mais"><a>quem somos    →</a></pre>
+                </div><div class="secao-right">
+                    <img class="img-home" width="380px" src="img/casal10.png">
+                </div>
+            </section>
 
+            <div class="divisor">
+                <hr id="line-divisor"><img id="img-divisor" src="img/cookie-sep.png"><hr id="line-divisor">
             </div>
-            
-            <!--banner
-            Quem Somos (Veja mais em...)
-            Produtos (veja mais em...)
-            Diferenciais
-            Imagens Curiosidades
-            Preços
-            Contato
-            Agradecimento (Voltar ao topo)
-            -->
 
-            <div id='tapaburaco'>
-            
+            <section class="secao-padrao-2">
+                <div class="secao-left">
+                    <img height="380px" src="img/mockupinsta.png">
+                </div><div class="secao-right">
+                    <h2 class="titulo-secao">Instagram</h2>
+                    <p class="p-home-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque pulvinar pellentesque. Sed et justo arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. In hac habitasse platea dictumst. Maecenas vulputate ultrices turpis, in pellentesque mauris auctor ut. Mauris quis felis pulvinar, facilisis tortor vel, porta tellus.</p>
+                    <a href="https://www.instagram.com/vnlacookie/?hl=pt-br"><pre class="veja-mais">Confira →</pre><img class="img-icone" src="img/ig.png" width="60px"></a>
+                </div>
+            </section>
+
+            <div class="divisor">
+                <hr id="line-divisor"><img id="img-divisor" src="img/cookie-sep.png"><hr id="line-divisor">
             </div>
+
+            <section class="secao-padrao-2">
+                <div class="secao-center">
+                    <ul class="diferenciais">
+                        <li>
+                            <img src="img/tapabur.png" width="50%">
+                            <p class="difer">Lorem ipsum dolor sit amet.</p>
+                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </li>
+                        <li>
+                            <img src="img/tapabur.png" width="50%">
+                            <p class="difer">Lorem ipsum dolor sit amet.</p>
+                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </li>
+                        <li>
+                            <img src="img/tapabur.png" width="50%">
+                            <p class="difer">Lorem ipsum dolor sit amet.</p>
+                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="secao-padrao-2">
+                <div class="secao-center">
+                    <h2 class="titulo-secao-central">Contato</h2>
+                    <ul class="contato">
+                        <li><a href="https://www.instagram.com/vnlacookie/?hl=pt-br">
+                            <img src="img/ig.png" width="50%">
+                            <p class="contat">@vnlacookie</p>
+                        </li></a>
+                        <li><a href="wa.me/whatsapp.com/message/R36XDKNENCRPK1">
+                            <img src="img/wpp.png" width="50%">
+                            <p class="contat"> + 55 15 99103 - 7497</p>
+                        </li></a>
+                    </ul>
+                </div>
+            </section>
+
+            <a id="final" href="#top"><h2 class="backtotop">Voltar ao topo</h2></a>
+
+            <div class='separador'></div> <!-- Continuação do degradê-->
+            
         </main>
-
-        <div class='separador'></div>
         
         <footer>
             <img class="logo-rodape" src="img/logo.png">
