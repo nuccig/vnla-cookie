@@ -11,6 +11,8 @@ body {
     background: #EEEEEE;
 }
 
+/*CSS Cabeçalho*/
+
 header {
     background: linear-gradient(#FFEBDA 70%,#EEEEEE);
     padding: 10px 0;
@@ -78,7 +80,7 @@ nav li a {
     font-size: 22px;
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
-    transition: 400ms;
+    transition: 500ms;
 }
 
 nav li a:hover {
@@ -88,6 +90,43 @@ nav li a:hover {
     border-radius: 2px;
     box-shadow: 5px 5px 5px #EB9191;
 }
+
+/*CSS Corpo*/
+
+.img-banner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    opacity: 0.40;
+    border-radius: 5px;
+}
+
+.txt-banner-upper {
+    position: relative;
+    top: -450px;
+    right: -25px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 75px;
+    text-shadow: 5px 5px 5px#FFEBDA;
+    font-weight: 700;
+    padding-left: 25px;
+}
+
+.txt-banner-down {
+    position: relative;
+    top: -200px;
+    left: -25px;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    font-size: 75px;
+    text-shadow: 5px 5px 5px#FFEBDA;
+    font-weight: 700;
+    padding-right: 25px;
+}
+
+/*CSS Rodapé*/
 
 footer {
     background: url('img/rodapé.png');
